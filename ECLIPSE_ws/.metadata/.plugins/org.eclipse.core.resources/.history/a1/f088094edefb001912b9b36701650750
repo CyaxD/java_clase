@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Ejercicio8 {
+	public static void main(String[] args) {
+
+		ArrayList<String> nombres = new ArrayList<String>();
+		String nombre = "";
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Introduzca un nombre: ");
+		nombre = sc.nextLine();
+		
+		
+		
+		
+		
+		
+		
+	}
+}

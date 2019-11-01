@@ -1,0 +1,47 @@
+import java.util.ArrayList;
+
+public class MainArrays {
+
+	public static void main(String[] args) {
+
+		// Java tiene arrays estáticos y dinámicos
+
+//---------------ESTÁTICOS-----------------
+
+		int[] arrayNumeros = new int[10];
+		arrayNumeros[0] = 23;
+		arrayNumeros[4] = 56;
+		System.out.println(arrayNumeros[0]);
+		System.out.println(arrayNumeros.length);
+		for (int i = 0; i <= arrayNumeros.length - 1; i++) { // el número final es length-1 porque empieza a contar en 0
+			System.out.println("Valor de la posición " + i + " es " + arrayNumeros[i]);
+		}
+
+		// si ponemos una posición del array que no existe, java te para el programa
+		// instantáneamente
+
+		// System.out.println(arrayNumeros[50]);
+		// System.out.println("esto se ejecuta después"); //no ejecuta esto porque hizo
+		// un error de ejecución
+
+//-------------DINÁMICOS----------------
+
+		// son objetos en java
+
+		ArrayList<String> listaStrings = new ArrayList<String>();
+		listaStrings.add(0, "Harry"); // primer valor, posición; segundo valor, el valor
+		System.out.println(listaStrings.get(0));
+		listaStrings.add("Hermione"); // si no le metes posición, la añade a la siguiente
+		System.out.println(listaStrings.get(1));
+
+		for (int j = 0; j < listaStrings.size(); j++) {				//no se utiliza mucho 
+			; // para listas dinámicas, usamos size
+			System.out.println(listaStrings.get(j));
+		}
+		
+		//lo que se utiliza para recorrer un array es un for each
+		
+		
+		
+	}
+}

@@ -1,0 +1,16 @@
+
+public class Variables {
+
+	public static void main(String[] args) {
+		
+		int numero=0;     	//variable numérica
+		System.out.println("El número es " +numero);
+		
+		//otros tipos de variable
+		
+		long numeroLargo = 67884;  //lower camel case
+		double numeroReal = 34.567;
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Ejercicio4 {
+	public static void main(String[] args) {
+
+		int numero=0;
+		int factorial=0;
+		
+		Scanner sc = new Scanner(System.in);
+		numero=sc.nextInt();
+		
+		for(int i=2; i<=numero;i++) {
+			
+		}
+	}
+}

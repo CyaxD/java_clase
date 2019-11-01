@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\jc_he\Desktop\Curso Android\ECLIPSE_ws\.metadata\.plugins\org.eclipse.jdt.core
+3120187957.index
+458946846.index
+1216889597.index
+348111208.index

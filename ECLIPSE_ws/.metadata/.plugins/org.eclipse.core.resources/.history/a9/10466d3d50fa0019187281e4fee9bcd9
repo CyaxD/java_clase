@@ -1,0 +1,32 @@
+
+public class Variables {
+
+	public static void main(String[] args) {
+		
+		//En java tenemos dos tipos de variables
+		//Tenemos variables primitivas 
+		//Tenemos variables de referencia
+		//Las siguientes serían variables primitivas
+		//int long double boolean
+		
+		
+		int numero=0;     	//variable numérica
+		System.out.println("El número es " +numero);
+		
+		long numeroLargo = 67884;  //lower camel case
+		double numeroReal = 34.567;
+		boolean cierto = true;
+		cierto= false; 
+		System.out.println(numeroLargo);
+		System.out.println(numeroReal);
+		
+		//El otro tipo son las variables de referencia o, directamente, referencias
+		
+		String nombre= "Pepe";		//las referencias son de clase, por eso lleva mayuscula
+		System.out.println("El nombre es "+nombre);
+		nombre = Laura;
+		
+		
+	}
+
+}

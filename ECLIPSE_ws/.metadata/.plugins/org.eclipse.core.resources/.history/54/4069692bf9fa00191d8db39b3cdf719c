@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Lectura {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int numero = 0;
+		System.out.println("Introduzca un número: ");
+		//leer numero
+		numero = sc.nextInt();
+	}
+
+}

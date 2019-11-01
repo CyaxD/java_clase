@@ -1,0 +1,36 @@
+
+public class MainStrings {
+
+	public static void main(String[] args) {
+
+		// Las cadenas en java no son primitivos
+		// son objetos
+
+		String cadena = "Harry Potter";
+		String cadena2 = "Hermione";
+		String cadena3 = "Ron Weasley";
+
+		String valor = "Homer";
+		String valor2 = "Homer";
+
+		// Para comparar strings SIEMPRE el método equals
+		if (valor.equals(valor2)) {
+			System.out.println("Los nombres son iguales");
+		}
+
+		String valor3 = "homer";
+		if (valor.equals(valor3)) {								//Es case sensitive
+			System.out.println("Los nombres son iguales");
+		}
+
+		if (valor.equalsIgnoreCase(valor3)) {					//No distingue mayúsculas o minúsculas
+			System.out.println("Los nombres son iguales");
+		}
+		String frase="Homer se comió un pollo";
+		
+		
+		
+		
+	}
+
+}

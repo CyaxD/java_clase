@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		
+		
+		Scanner sc = new Scanner(System.in);
+		Scanner sc1= new Scanner(System.in);
+		int numero = 0; 
+		String respuesta = "respuesta";
+		
+		System.out.println("Inserte un número: ");
+		
+		numero = sc.nextInt();
+		
+		for (int i=1; i<=numero; i++) {
+			System.out.println(i);
+		}
+		
+		do {
+		System.out.println("¿Desea introducir más números? si/no");
+		
+		respuesta = sc1.nextLine();
+		
+			if ("si".equals(respuesta)) {
+				System.out.println("Inserte un número: ");
+		
+				numero = sc.nextInt();
+		
+				for (int i=1; i<=numero; i++) {
+					System.out.println(i);
+				}
+			}else if(respuesta=="no"){
+				System.out.println("Adiós");
+			}
+		}while ("si".equals(respuesta));
+		System.out.println("Adiós");
+		sc1.close();
+
+	}
+
+}
